@@ -4,12 +4,19 @@
 ‒ value of the width of the signal fragmentation window
 
 ‒ the path to the directory of the trained convolutional neural network model, the directory contains the following files:
+
 • file of the trained convolutional neural network format.pth, 
+
 • file description of the format model .json with the fields:
+
 a) “model_name" – the name of the model architecture,
+
 b) “model_path" – the full path to the .pth file of the trained neural network,
+
 c) “classes" – a dictionary of the correspondence of class names to their index
+
 d) “image_size" – the value of the image size
+
 e) "acc" – the value of the average accuracy of the model determined at the training stage;
 
 ‒ classified radio broadcast in the format .wav.
