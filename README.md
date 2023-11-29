@@ -1,4 +1,4 @@
-# RecognizedRFD
+# A means of automatic classification of objects emitting radio-electronic signals by their graphic portraits. Version 1.0
 
 1. Input parameters:
 ‒ value of the width of the signal fragmentation window
