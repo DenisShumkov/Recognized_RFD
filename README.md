@@ -1,6 +1,6 @@
 # A means of automatic classification of objects emitting radio-electronic signals by their graphic portraits. Version 1.0
 
-1. Input parameters:
+### 1. Input parameters:
 ‒ value of the width of the signal fragmentation window
 
 ‒ the path to the directory of the trained convolutional neural network model, the directory contains the following files:
@@ -21,7 +21,7 @@ e) "acc" – the value of the average accuracy of the model determined at the tr
 
 ‒ classified radio broadcast in the format .wav.
 
-3. Output data:
+### 2. Output data:
 
 ‒ a window showing spectrograms of audio signal fragments;
 
@@ -30,7 +30,7 @@ e) "acc" – the value of the average accuracy of the model determined at the tr
 ‒ the reliability value as a percentage of the classification of objects emitting radio-electronic signals in the selected fragment of the radio broadcast.
 
 
-# A control example of the work.
+## A control example of the work.
 The selection and input of the source data is carried out in the initial dialog box (Figure 1). 
 To download the audio signal file, click on the "Select audio signal file" button. To enter the value of the width of the window, you must enter a fractional number (the separator is ".").
 To teach the spectrograms, you need to click on the "Teach the spectrogram" button, as a result, a new window will open, which displays the spectrogram of the current audio fragment, to change the audio fragment, you need to press the "Forward" or "Backward" button (Figure 2).
