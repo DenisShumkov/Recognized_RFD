@@ -1,7 +1,7 @@
 # A means of automatic classification of objects emitting radio-electronic signals by their graphic portraits. Version 1.0
 
 1. Input parameters:
-‒ value of the width of the signal fragmentation window
+‒ value of the width of the signal fragmentation window /n
 ‒ the path to the directory of the trained convolutional neural network model, the directory contains the following files:
 • file of the trained convolutional neural network format.pth, 
 • file description of the format model .json with the fields:
@@ -12,7 +12,7 @@ d) “image_size" – the value of the image size
 e) "acc" – the value of the average accuracy of the model determined at the training stage;
 ‒ classified radio broadcast in the format .wav.
 
-2. Output data:
+3. Output data:
 ‒ a window showing spectrograms of audio signal fragments;
 ‒ name of the class of the corresponding spectrogram; 
 ‒ the reliability value as a percentage of the classification of objects emitting radio-electronic signals in the selected fragment of the radio broadcast.
