@@ -37,6 +37,8 @@ To teach the spectrograms, you need to click on the "Teach the spectrogram" butt
 To download the classification model, enter the full path to the directory where the model file and the model description file are located in the "Specify the model directory:" 
 field and click the "Upload model" button. As a result, the "*model description*" window displays information about the loaded model (Figure 3).
 
+
+
 # Средство автоматической классификации объектов, излучающих радиоэлектронные сигналы, по их графическим портретам. Версия 1.0
 
 ### 1. Входные параметры:
