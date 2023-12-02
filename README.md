@@ -79,5 +79,4 @@ field and click the "Upload model" button. As a result, the "*model description*
 поле и нажмите кнопку «Загрузить модель». В результате в окне «*описание модели*» отображается информация о загруженной модели (рис. 3).
 Процедура классификации спектрограмм запускается кнопкой «Классификация сигнала».
 Результатом работы станет добавление в окно отображения спектрограммы фрагмента аудиосигнала информации о названии класса сигнала и достоверности отнесения сигнала к этому классу (рисунок 4).
-The spectrogram classification procedure is started by the "Signal Classification" button. 
-The result of the work will be the addition to the window displaying the spectrogram of an audio signal fragment, information about the name of the signal class and the reliability of assigning the signal to this class (Figure 4).
+
