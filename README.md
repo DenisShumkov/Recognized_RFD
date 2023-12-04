@@ -37,6 +37,8 @@ To teach the spectrograms, you need to click on the "Teach the spectrogram" butt
 To download the classification model, enter the full path to the directory where the model file and the model description file are located in the "Specify the model directory:" 
 field and click the "Upload model" button. As a result, the "*model description*" window displays information about the loaded model (Figure 3).
 
+## PS:
+Any reasonable edits and recommendations on the topic are welcome!)
 
 
 # Средство автоматической классификации объектов, излучающих радиоэлектронные сигналы, по их графическим портретам. Версия 1.0
@@ -79,4 +81,7 @@ field and click the "Upload model" button. As a result, the "*model description*
 поле и нажмите кнопку «Загрузить модель». В результате в окне «*описание модели*» отображается информация о загруженной модели (рис. 3).
 Процедура классификации спектрограмм запускается кнопкой «Классификация сигнала».
 Результатом работы станет добавление в окно отображения спектрограммы фрагмента аудиосигнала информации о названии класса сигнала и достоверности отнесения сигнала к этому классу (рисунок 4).
+
+## ПС:
+Любые разумные правки и рекомендации по теме приветствуются!)
 
