@@ -1,5 +1,4 @@
 import gc
-
 import torch
 import json
 from torch_audioset.yamnet.model import yamnet as torch_yamnet
@@ -91,6 +90,6 @@ class My_Net(torch.nn.Module):
 
 
 if __name__ == "__main__":
-    DIR = "H:\SchebnevRadar3.5GHz//301023"
+    DIR = "H:\SchebnevRadar3.5GHz//301023" #указыввается своё место хранения
     model = InferenceCNN()
     print(model.load_model(DIR))
